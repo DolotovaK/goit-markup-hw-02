@@ -30,7 +30,6 @@ body {
 /*----------------------HEADER----------------------*/
 .header-logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.29;
@@ -69,11 +68,15 @@ body {
 }
 
 /*----------------------HERO----------------------*/
+.hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-color);
   text-align: center;
@@ -129,7 +132,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  text-align: center;
 }
 
 /*----------------------TEAM----------------------*/
@@ -152,6 +154,10 @@ body {
 }
 
 /*----------------------FOOTER----------------------*/
+.footer {
+  background-color: #2f303a;
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -170,6 +176,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts [href*='www.google.com/maps/'] {
+  color: #ffffff;
 }
 
 .footer-contacts-link:hover,
